@@ -1,1 +1,6 @@
 discord.py == 0.16.12
+requests
+bs4
+lxml
+json
+collections
