@@ -13,12 +13,12 @@ import stats
 
 client = discord.Client()
 
-token = "NDkyMzQ3MTY5NjM5MjM1NTg0.DoVF-g.qYGYm3MNT7seezL0HW5jgvRSEcM"
-# token = "NDExNDE3MDM4NDczMzk2MjI1.DlvRcg.UDoHNOplOMj_AMUBL3ixuPiH-To"
+token = os.environ["token"]
+API_KEY = os.environ["API_KEY"]
 
 #API header
 header = {
-    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyZDU3YThhMC1hY2JhLTAxMzYtY2IyNS0wN2NiYmEyMzM3ZDEiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTM4OTU2NDM2LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6ImRpc2NvcmQtc3RhdGJvIn0.MtzTXTV5wzXBVpr9E_imjRA5KclCvwQEBYQi1_IKQQw",
+    "Authorization": API_KEY,
     "Accept": "application/vnd.api+json"
 }
 
