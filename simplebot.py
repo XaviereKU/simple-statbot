@@ -6,9 +6,8 @@ import lxml
 import json
 from collections import OrderedDict
 import random
-import datetime
 import math
-import time
+import os
 import stats
 
 client = discord.Client()
